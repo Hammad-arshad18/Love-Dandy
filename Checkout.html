@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Check Out</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/BasicLayout.css">
+    <link rel="stylesheet" href="css/Checkout.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-md-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">dandy</a>
+    </div>
+</nav>
+
+<!--Body Start-->
+
+
+
+<!--Your Order-->
+<section class="y-order text-center">
+    <div class="container">
+        <h1>Your order</h1>
+        <p>Pause or cancel anytime • Free shipping • Satisfaction guarantee</p>
+    </div>
+</section>
+
+
+<!--Shipping Container-->
+<section class="shipping-portion">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="order-summary container">
+                    <h4>Order Summary</h4>
+                    <h6>YOUR PLAN INCLUDES</h6>
+                    <ul>
+                        <li><i class="fas fa-calendar-check"></i> 30 Vet-formulated vitamin packs</li>
+                        <li><i class="fas fa-shipping-fast"></i> Delivered in 3-5 days in a reusable box</li>
+                        <li><i class="fas fa-prescription-bottle"></i> Shipped to your door on your terms</li>
+                    </ul>
+                </div>
+
+                <div class="delivery-sche container">
+                    <h6>YOUR DELIVERY SCHEDULE</h6>
+                    <h5>Every 4 weeks</h5>
+                    <h6>YOUR SUBSCRIPTIONS</h6>
+                    <div class="his-pack container">
+                        <div class="row">
+                            <div class="col-6">
+                                <p>HII'S PACK </p>
+                            </div>
+                            <div class="col-6">
+<!--                                <button>EDIT</button>-->
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">EDIT</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="row justify-content-center">
+                                            <div class="col-12">
+                                                <div class="modal-content">
+                                                    <div class="modal-header border-0">
+                                                        <h6 class="modal-title" id="exampleModalLabel">Your Matches</h6>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body border-0 container">
+                                                        <p class="text-start">Please select an alternative from the choices below. These options are the best fit for your dog based on the information you provided.</p>
+                                                        <section class="replace-item">
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-sm text-start">
+                                                                        <h4>Restore + Support</h4>
+                                                                        <div class="img-container text-center">
+                                                                            <img src="images/m1.png" alt="Image" class="img-fluid m-img"/>
+                                                                        </div>
+                                                                        <p>Allergen-fighting powerhouse.</p>
+                                                                        <button class="btn btn-light">ADD TO PACK</button>
+                                                                    </div>
+                                                                    <div class="col-sm text-start">
+                                                                        <h4>Hemp +</h4>
+                                                                        <div class="img-container text-center">
+                                                                            <img src="images/m2.png" alt="Image" class="img-fluid m-img"/>
+                                                                        </div>
+                                                                        <p>Allergen-fighting powerhouse.</p>
+                                                                        <button class="btn btn-light">ADD TO PACK</button>
+                                                                    </div>
+                                                                    <div class="col-sm text-start">
+                                                                        <h4>Happy Belly</h4>
+                                                                        <div class="img-container text-center">
+                                                                            <img src="images/m3.png" alt="Image" class="img-fluid m-img"/>
+                                                                        </div>
+                                                                        <p>Allergen-fighting powerhouse.</p>
+                                                                        <button class="btn btn-light">ADD TO PACK</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters">
+                            <div class="col-3 text-center">
+                                <img src="images/yo1.png" alt="Image" class="img-fluid"/>
+                                <p>Happy Belly</p>
+                            </div>
+                            <div class="col-3 text-center">
+                                <img src="images/yo2.png" alt="Image" class="img-fluid"/>
+                                <p>Immunity Blend</p>
+                            </div>
+                            <div class="col-3 text-center">
+                                <img src="images/yo3.png" alt="Image" class="img-fluid"/>
+                                <p>Mobility +</p>
+                            </div>
+                            <div class="col-3 text-center">
+                                <img src="images/yo4.png" alt="Image" class="img-fluid"/>
+                                <p>Shine Boost</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo-code">
+                        <div class="row">
+                            <div class="col-8">
+                                <input type="text" class="form-control" placeholder="Promo Code"/>
+                            </div>
+                            <div class="col-3">
+                                <button class="apply btn btn-dark">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cost-total container">
+                    <span class="titl">Subtotal</span>
+                    <span class="price">$40.00</span>
+                </div>
+                <div class="cost-total container">
+                    <span class="titl">Shipping</span>
+                    <span class="price">FREE</span>
+                </div>
+
+                <div class="total container">
+                    <span class="t-titl">TOTAL</span>
+                    <span class="t-price">$40.00</span>
+                </div>
+
+                <div class="list-features container">
+                    <ul>
+                        <li><i class="fas fa-check-double"></i> Pause or cancel anytime</li>
+                        <li><i class="fas fa-check-double"></i> Free shipping</li>
+                        <li><i class="fas fa-check-double"></i> Satisfaction guarantee</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="shipping-address container">
+                    <h1>Shipping Address</h1>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <input type="text" class="form-control" placeholder="First Name"/>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <input type="text" class="form-control" placeholder="Last Name"/>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-12 col-md-9">
+                            <input type="text" class="form-control" placeholder="Street Address"/>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <input type="text" class="form-control" placeholder="Apt/Suite"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <input type="text" class="form-control" placeholder="City"/>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <select class="form-select">
+                                <option value="" disabled="" selected="">State</option>
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="DC">District Of Columbia</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <input type="text" class="form-control" placeholder="Apt/Suite"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <input type="email" class="form-control" placeholder="Email Address"/>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <input type="text" class="form-control" placeholder="Phone Number"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="payment container">
+                    <h1>Payment</h1>
+                    <p><i class="fas fa-unlock-alt"></i> Payments are secure and encrypted</p>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0"><i class="far fa-credit-card"></i></span>
+                            <input type="text" class="form-control border-start-0" placeholder="1234 1234 1234 1234"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <select class="form-select">
+                                <option value="" disabled="" selected="">Month</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="form-select"><option value="" disabled="" selected="">Year</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option><option value="2030">2030</option><option value="2031">2031</option><option value="2032">2032</option><option value="2033">2033</option><option value="2034">2034</option><option value="2035">2035</option><option value="2036">2036</option><option value="2037">2037</option><option value="2038">2038</option><option value="2039">2039</option><option value="2040">2040</option></select>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" class="form-control" placeholder="CVV"/>
+                        </div>
+                    </div>
+                    <input type="checkbox" class="form-check-input" id="add"/>
+                    <label for="add">Add $1 a month for American Pets Alive <a href="#">Learn more</a></label>
+                </div>
+                <div class="place-order text-center">
+                    <button class="btn btn-dark btn-lg">PLACE ORDER</button>
+                    <p>By placing this order, you agree to our Terms of Service. Dandy is a subscription with no long term commitment. You can cancel unprocessed orders anytime.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--Body End-->
+
+
+
+
+<!--Take Quiz-->
+<div class="take-quiz text-center">
+    <a href="">Take Quiz</a>
+</div>
+
+
+<script src="js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

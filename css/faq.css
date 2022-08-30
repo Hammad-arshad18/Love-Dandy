@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dandy, Arial, sans-serif;
+}
+
+.faq {
+  background-color: #a7c280;
+  padding: 20px 0 0 0;
+}
+.faq h1 {
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+  padding: 20px 0 50px 0;
+  margin-bottom: 20px;
+}
+.faq .row {
+  margin-top: 20px;
+}
+.faq .row .col-md button {
+  border: none;
+  outline: none;
+  padding: 6px 15px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #8ba16b;
+}
+@media only screen and (max-width: 768px) {
+  .faq .row .col-md button {
+    display: block !important;
+    text-align: left !important;
+    width: 100% !important;
+  }
+}
+.faq .row .col-md .q-open {
+  background-color: white !important;
+}
+
+.questions {
+  padding: 20px 0;
+}
+.questions .opener {
+  padding: 20px 0;
+  margin-top: -20px;
+}
+.questions .opener .accordion-item .accordion-header {
+  width: 100%;
+}
+.questions .opener .accordion-item .accordion-header button {
+  background-color: white !important;
+  width: 100%;
+  text-align: left !important;
+  border: none !important;
+  border-top: 1px solid black !important;
+  border-bottom: 1px solid black !important;
+  padding: 5px;
+  outline: none !important;
+  font-weight: 700;
+  font-size: 25px;
+}
+.questions .opener .accordion-item .accordion-header button .down {
+  float: right;
+}
+.questions .opener .accordion-item .accordion-header button .down i {
+  font-weight: lighter;
+}
+.questions .opener .accordion-item .accordion-body p {
+  font-size: 18px;
+  color: black;
+  padding: 10px 0;
+  text-align: justify;
+}
+.questions .opener .accordion-item .accordion-body p a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=faq.css.map */

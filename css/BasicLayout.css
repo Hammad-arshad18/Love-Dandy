@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 10px 10px 15px 10px;
+}
+.navbar .navbar-brand {
+  font-size: 33px;
+  font-weight: 700;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+  .navbar .navbar-brand {
+    left: 0;
+  }
+}
+.navbar .navbar-nav .dropdown {
+  transition: all 0.3s ease-in-out;
+}
+.navbar .navbar-nav .dropdown:hover .dropdown-menu {
+  display: block !important;
+}
+.navbar .navbar-nav .nav-item {
+  padding: 0 15px;
+}
+.navbar .navbar-nav .nav-item a {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+}
+.navbar .navbar-nav .nav-item a:hover {
+  text-decoration: underline;
+}
+.navbar .navbar-nav .nav-item a i {
+  font-size: 24px;
+}
+.navbar .navbar-nav .nav-item .active {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #efedeb;
+  padding: 25px 0 20px 0;
+}
+.footer .row {
+  border-bottom: 1px solid white;
+}
+@media only screen and (max-width: 576px) {
+  .footer .row {
+    text-align: center;
+  }
+}
+.footer .row .col-sm-6 h4 {
+  padding: 10px 0;
+}
+.footer .row .col-sm-6 h4 a {
+  text-decoration: none;
+  color: black;
+  font-size: 33px;
+  font-weight: 700;
+}
+.footer .row .col-sm-6 .contact {
+  padding-left: 0;
+}
+.footer .row .col-sm-6 .contact li {
+  list-style: none;
+  padding: 1px 0;
+}
+.footer .row .col-sm-6 .contact li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer .row .col-sm-6 .social {
+  padding-left: 0;
+}
+.footer .row .col-sm-6 .social li {
+  list-style: none;
+  display: inline-block;
+  padding: 2px 5px;
+}
+.footer .row .col-sm-6 .social li a {
+  color: black;
+  font-size: 18px;
+}
+.footer .row .col-sm .pages {
+  padding-left: 0;
+}
+.footer .row .col-sm .pages li {
+  list-style: none;
+}
+.footer .row .col-sm .pages li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer .r2 {
+  border-bottom: none;
+  padding: 30px 0 15px 0;
+}
+.footer .r2 .col-sm .copy-right {
+  padding-left: 0;
+}
+.footer .r2 .col-sm .copy-right li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 7px;
+  font-size: 13px;
+}
+.footer .r2 .col-sm .copy-right li a {
+  color: black;
+}
+.footer .r2 .col-sm p {
+  font-size: 13px;
+  color: black;
+  text-align: justify;
+}
+
+.take-quiz {
+  background-color: #dfb5bf;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  display: none;
+}
+@media only screen and (max-width: 576px) {
+  .take-quiz {
+    display: block;
+  }
+}
+.take-quiz a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+.take-quiz a:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=BasicLayout.css.map */

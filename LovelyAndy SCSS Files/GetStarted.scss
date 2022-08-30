@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dandy,Arial,sans-serif;
+}
+
+//Navbar
+.navbar{
+  padding: 2px 15px 15px 15px;
+  .navbar-brand{
+    font-size: 33px;
+    font-weight: 700;
+    position: relative;
+    left: 50px;
+    @media only screen and (max-width: 768px) {
+      left: 0;
+    }
+  }
+}
+
+//Main Body
+.main-container{
+  background-color: #a7c280;
+  height: 87vh;
+  .treat-dog{
+    padding: 10px 0;
+    img{
+      padding: 5px 0 20px 0;
+    }
+    h1{
+      font-size: 44px;
+      line-height: 46px;
+      margin-bottom: 32px;
+      color: black;
+      font-weight: 700;
+    }
+    p{
+      padding-bottom: 24px;
+      font-size: 18px;
+      line-height: 24px;
+      color: #000;
+    }
+    a{
+      @media only screen and (max-width: 768px){
+        margin-top: 0 !important;
+      }
+      margin-top: 20px;
+      background-color: black !important;
+      color: white !important;
+      border: 1px solid black !important;
+      padding: 9px 30px;
+      font-weight: bold;
+      font-size: 12px;
+      margin-bottom: 10px;
+      transition: all 0.3s;
+      &:hover{
+        background-color: white !important;
+        color: black !important;
+      }
+    }
+  }
+}

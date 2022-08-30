@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dandy,Arial,sans-serif;
+}
+
+//At Dandy
+.at-dandy{
+  background-color: #99c3d1;
+  .row{
+    .col-md{
+      @media only screen and (max-width: 768px) {
+        text-align: center;
+      }
+      h1{
+        font-size: 45px;
+        font-weight: bold;
+        padding: 30px 0;
+      }
+      p{
+        font-size: 18px;
+        color: black;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
+
+
+//Met Board
+.met-board{
+  padding: 20px 0 30px 0;
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
+  h6{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 20px 0 30px 0;
+  }
+  .row{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    .col-md{
+      margin-right: 10px;
+      h3{
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px 0 0 0;
+      }
+      p{
+        font-size: 15px;
+        padding-bottom: 20px;
+        color: black;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+
+//Our Process Slider
+.o-process{
+  background-color: #dfb5bf;
+  padding: 30px 0;
+  transition: all 0.3s ease-in-out !important;
+  h6{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px  0;
+  }
+  .carousel{
+    .carousel-control-prev,.carousel-control-next{
+      background: transparent !important;
+      border: none;
+      outline: none;
+      @media only screen and (max-width: 576px) {
+        display: none !important;
+      }
+    }
+    .carousel-indicators{
+      button{
+        padding: 5px;
+        border-radius: 50%;
+        border: none !important;
+        outline: none !important;
+        margin-right: 7px;
+        background-color: lightgrey !important;
+      }
+      .active{
+        background-color:black !important;
+      }
+    }
+  }
+  .row{
+    .col-md-8{
+      h3{
+        padding: 10px 0 0 0;
+        font-size: 45px;
+        font-weight: 700;
+      }
+      h4{
+        font-size: 25px;
+        padding: 10px 0;
+        color: black;
+      }
+      p{
+        font-size: 18px;
+        color: black;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+//Best Friend
+.b-friend{
+  @media only screen and (max-width: 576px) {
+    text-align: center;
+  }
+  padding: 20px 0;
+  h6{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px  0 10px;
+  }
+  h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px 0;
+    margin-bottom: 25px;
+  }
+  .row{
+    .col-sm{
+      margin-right: 15px;
+      margin-top: 20px;
+      h5{
+        font-size: 25px;
+        font-weight: bold;
+        padding: 10px 0 20px 0;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .get-pack{
+    padding: 20px 0;
+    margin-top: 40px;
+    a{
+      background-color: black !important;
+      color: white !important;
+      border-color: black;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 10px 35px;
+      margin-bottom: 18px;
+      transition: all 0.3s;
+      box-shadow: none !important;
+      margin-bottom: 15px;
+      &:hover{
+        background-color: white !important;
+        color: black !important;
+      }
+    }
+  }
+}

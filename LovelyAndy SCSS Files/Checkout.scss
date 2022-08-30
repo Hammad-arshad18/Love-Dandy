@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dandy,Arial,sans-serif;
+}
+
+//Your Order
+.y-order{
+  padding: 20px 0;
+  background-color: #efedeb;
+  h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+    margin-top: 10px;
+    padding: 10px 0 0 0;
+  }
+  p{
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+}
+
+//shipping-portion
+.shipping-portion{
+  padding: 20px 0;
+  .row{
+    padding: 20px 0;
+    .col-md-4{
+      border-radius: 2px;
+      background-color: #efdadf;
+      .order-summary {
+        margin-bottom: 15px;
+        border-bottom: 1px solid white;
+        h4 {
+          font-size: 25px;
+          margin: 20px 0 10px;
+          font-weight: bold;
+        }
+        h6 {
+          font-size: 12px;
+          padding: 10px 0 5px;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+        ul {
+          padding-left: 0;
+          li {
+            list-style: none;
+            font-size: 15px;
+            padding: 5px 0;
+            i {
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+      .delivery-sche{
+        border-bottom: 1px solid white;
+        h6{
+          margin: 25px 0 10px;
+          text-transform: uppercase;
+          font-size: 12px;
+          color: black;
+          font-weight: 700;
+        }
+        h5{
+          font-size: 16px;
+          color: black;
+        }
+        .his-pack{
+          background-color: white;
+          .row{
+            .col-6{
+              .modal {
+                .modal-dialog {
+                  //width: 80% !important;
+                }
+                .modal-content {
+                  .row {
+                    .col-sm {
+                      border-top: 1px solid black;
+                      margin-top: 10px;
+                      margin-right: 10px;
+                      h4 {
+                        font-size: 18px;
+                        padding: 5px 0;
+                      }
+                      p {
+                        font-size: 14px;
+                        padding: 10px 0 5px 0;
+                        color: black;
+                        font-weight: 500;
+                      }
+                      button {
+                        background-color: black !important;
+                        color: #efedeb;
+                        font-size: 12px;
+                        font-weight: bold;
+                        border: 1px solid black;
+                        padding: 8px 15px;
+                        transition: all 0.3s;
+                        float: none !important;
+                        margin-bottom: 40px;
+                        box-shadow: none !important;
+                        &:hover {
+                          background-color: #efedeb !important;
+                          color: black !important;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              p{
+                font-size: 12px;
+                font-weight: bold;
+              }
+              button{
+                background-color: #efedeb;
+                border: none;
+                outline: none;
+                padding: 3px 15px;
+                font-size: 12px;
+                float: right;
+                font-weight: bold;
+              }
+            }
+            .col-3{
+              p{
+                font-size: 11px;
+                padding: 5px 0;
+              }
+            }
+          }
+        }
+        .promo-code{
+          .row{
+            .col-8{
+              input{
+                box-shadow: none !important;
+                border: 1px solid lightgrey !important;
+                font-size: 16px;
+              }
+            }
+            .col-3{
+              button{
+                background-color: white !important;
+                color: black !important;
+                border: 1px solid black !important;
+                padding: 7px 15px;
+                font-weight: bold;
+                font-size: 14px;
+                margin-bottom: 10px;
+                transition: all 0.3s;
+                box-shadow: none !important;
+                text-transform: uppercase;
+                &:hover{
+                  background-color: black !important;
+                  color: white!important;
+                }
+              }
+            }
+          }
+        }
+      }
+      .cost-total{
+        font-size: 15px;
+        padding: 12px;
+        border-bottom: 1px solid white;
+        .price{
+          float: right;
+        }
+      }
+      .total{
+        font-size: 13px;
+        padding: 12px;
+        font-weight: bold;
+        .t-price{
+          float: right;
+        }
+      }
+
+      .list-features{
+        ul{
+          padding-left: 0;
+          li{
+            list-style: none;
+            padding: 3px 0;
+            i{
+              font-weight: lighter;
+              margin-right: 5px;
+              color: #9c878f;
+            }
+          }
+        }
+      }
+
+    }
+
+    .col-md-8{
+      .shipping-address{
+        h1 {
+          color: black;
+          font-weight: bold;
+          font-size: 28px;
+        }
+      }
+      .payment{
+        h1{
+          color: black;
+          font-weight: bold;
+          font-size: 25px;
+        }
+        p{
+          font-size: 13px;
+          i{
+            margin-right: 5px;
+          }
+        }
+        a{
+          color: black;
+        }
+      }
+      input{
+        box-shadow: none !important;
+        &:focus{
+          border-color: black !important;
+        }
+      }
+      .place-order{
+        padding: 20px 0;
+        margin-top: 40px;
+        button{
+          background-color: black !important;
+          color: white !important;
+          border: 1px solid black !important;
+          padding: 20px 70px;
+          font-weight: bold;
+          font-size: 17px;
+          margin-bottom: 10px;
+          transition: all 0.3s;
+          box-shadow: none !important;
+          text-transform: uppercase;
+          &:hover{
+            background-color: white !important;
+            color: black!important;
+          }
+        }
+        p{
+          width: 40%;
+          margin: 0 auto;
+          font-size: 13px;
+          padding: 20px 0;
+          color: #757575;
+          @media only screen and (max-width: 768px) {
+            width: 90% !important;
+          }
+        }
+      }
+    }
+  }
+}

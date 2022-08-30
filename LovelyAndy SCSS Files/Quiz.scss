@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dandy,Arial,sans-serif;
+}
+
+//Navbar
+.navbar{
+  padding: 2px 15px 15px 15px;
+  .navbar-brand{
+    font-size: 33px;
+    font-weight: 700;
+    position: relative;
+    left: 50px;
+    @media only screen and (max-width: 768px) {
+      left: 0;
+    }
+  }
+}
+
+//Main Body
+.main-container {
+  background-color: #efedeb;
+  min-height: 100vh;
+  height: 100%;
+  .checkbox-cont{
+      input{
+        padding: 20px 100px !important;
+        box-shadow: none !important;
+        border-color: black !important;
+
+        &:checked{
+          background-color: black !important;
+          color: white !important;
+        }
+      }
+    label{
+      position: relative;
+      top: -30px;
+      z-index: 100;
+    }
+  }
+  .b-select{
+    font-size: 20px;
+    padding: 10px;
+    border: none !important;
+    outline: none !important;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+  .name {
+    padding: 10px 0;
+    h6{
+      padding: 25px 0 10px 0;
+      margin-top: 25px;
+      font-size: 13px;
+      font-weight: bold;
+      color: black;
+    }
+    h1{
+      color: black;
+      font-weight: 700;
+      font-size: 40px;
+      padding-bottom: 10px;
+      width: 70%;
+      padding-bottom: 20px;
+      margin-bottom: 45px;
+      margin: 0 auto;
+      word-wrap: break-word;
+      letter-spacing: 0.4px;
+    }
+    p{
+      font-size: 18px;
+      font-weight: normal;
+      padding: 20px 0 0 0;
+      width: 90%;
+      margin: 0 auto;
+    }
+    .form-group{
+      padding: 0 0 20px;
+      label{
+        color: black;
+        font-size: 20px !important;
+        font-weight: bold !important;
+        margin-right: 15px;
+      }
+      .form-check-input{
+        font-size: 20px !important;
+        margin-right: 5px;
+        border-color: black !important;
+        transition: all 0.4s ease-in-out;
+        position: relative;
+        top: 15px;
+        &:checked{
+          background-color: black !important;
+          box-shadow: none !important;
+        }
+      }
+    }
+    .row{
+      .col-md-8{
+        input{
+          @media only screen and (max-width: 576px) {
+            width: 85%;
+          }
+          @media only screen and (max-width: 768px) {
+            font-size: 18px;
+          }
+          margin: 0 auto;
+          background-color: transparent;
+          border: none;
+          border-bottom: 2px solid #c4c3c3;
+          font-size: 30px;
+          font-weight: 600;
+          box-shadow: none !important;
+          margin-bottom: 50px;
+          &::placeholder{
+            color: #c8c6c6;
+          }
+        }
+      }
+      a{
+        text-decoration: none;
+        i{
+          float: left;
+          color: black;
+          font-weight: 400;
+          position: relative;
+          left: 20px;
+        }
+      }
+      .next{
+        @media only screen and (max-width: 576px) {
+        }
+        background-color: black !important;
+        color: white !important;
+        border: 1px solid black !important;
+        padding: 9px 30px;
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 10px;
+        transition: all 0.3s;
+        box-shadow: none !important;
+        &:hover{
+          background-color: white !important;
+          color: #545453 !important;
+        }
+      }
+    }
+  }
+}
+.check-box-option{
+  padding: 30px 0;
+  margin: 20px 0;
+  .row{
+    padding: 20px 0;
+    .col-md-3{
+      margin: 10px 0;
+      label{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid black;
+        font-weight: bold;
+        transition: 0.3s;
+        user-select: none;
+        span{
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 16px;
+          transition: 0.3s;
+        }
+        input[type="checkbox"]{
+          display: none;
+          &:checked ~ span{
+            background-color: black;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+#back_btn{
+  cursor: pointer;
+}

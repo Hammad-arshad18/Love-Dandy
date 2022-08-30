@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dandy, Arial, sans-serif;
+}
+
+.vet {
+  background-color: #dfb5bf;
+  padding: 20px 0 0 0;
+}
+@media only screen and (max-width: 576px) {
+  .vet {
+    text-align: center;
+  }
+}
+.vet .row {
+  display: flex;
+  justify-content: center;
+}
+.vet .row .col-sm h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: black;
+  padding: 10px 0 30px 0;
+  line-height: 45px;
+}
+@media only screen and (max-width: 992px) {
+  .vet .row .col-sm h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+}
+.vet .row .col-sm p {
+  font-size: 18px;
+  color: black;
+  padding-bottom: 30px;
+}
+.vet .row .col-sm a {
+  background-color: black !important;
+  color: white !important;
+  border-color: black;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-bottom: 18px;
+  transition: all 0.3s;
+  box-shadow: none !important;
+}
+.vet .row .col-sm a:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.products {
+  margin-top: 20px;
+  padding: 15px 0;
+}
+.products .row {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+@media only screen and (max-width: 768px) {
+  .products .row {
+    text-align: center;
+  }
+  .products .row .col-md-3 {
+    margin-right: 0 !important;
+  }
+}
+.products .row .col-md-3 {
+  margin-top: 30px;
+  border-top: 1px solid black;
+  margin-right: 30px;
+}
+.products .row .col-md-3 .img-container {
+  background-color: #efedeb;
+  color: white;
+  position: relative;
+}
+.products .row .col-md-3 .img-container .m-img {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+}
+.products .row .col-md-3 .img-container .text-overlay {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #efedeb;
+  color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.products .row .col-md-3 .img-container .text-overlay:hover {
+  opacity: 1;
+}
+.products .row .col-md-3 .img-container .text-overlay p {
+  font-weight: 700;
+}
+.products .row .col-md-3 .img-container .text-overlay .row {
+  text-align: left;
+  padding: 5px 20px;
+}
+.products .row .col-md-3 .img-container .text-overlay .row .col-md h6 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.products .row .col-md-3 .img-container .text-overlay .row .col-md ul {
+  padding-left: 0;
+}
+.products .row .col-md-3 .img-container .text-overlay .row .col-md ul li {
+  list-style: none;
+  padding: 3px;
+  font-size: 14px;
+}
+.products .row .col-md-3 .img-container .text-overlay > * {
+  transform: translateY(20px);
+  transition: all 0.3s;
+}
+.products .row .col-md-3 h1 {
+  padding: 10px 0 0 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+.products .row .col-md-3 p {
+  font-size: 14px;
+  padding: 10px 0 5px 0;
+  color: black;
+  font-weight: 500;
+}
+.products .row .col-md-3 a {
+  background-color: #efedeb !important;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 28px;
+  transition: all 0.3s;
+  margin-bottom: 40px;
+  box-shadow: none !important;
+}
+.products .row .col-md-3 a:hover {
+  background-color: black !important;
+  color: #efedeb !important;
+}
+
+.processes {
+  margin-top: 40px;
+  padding: 20px 0;
+}
+.processes h6 {
+  font-weight: 700;
+  padding: 20px 0 40px 0;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.processes p {
+  width: 65%;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  padding-bottom: 15px;
+}
+@media only screen and (max-width: 768px) {
+  .processes p {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  }
+}
+.processes span {
+  font-weight: 500;
+  color: #000;
+}
+.processes img {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.processes a {
+  background-color: black !important;
+  color: #efedeb;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid black !important;
+  padding: 10px 28px;
+  transition: all 0.3s;
+  margin-bottom: 40px;
+  box-shadow: none !important;
+}
+.processes a:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.time {
+  background-color: #f5b864;
+  padding: 20px 0;
+}
+.time h1 {
+  padding: 20px 0;
+  margin-top: 30px;
+  font-size: 50px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.time p {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 65%;
+  padding: 0 0 20px 0;
+  color: #000;
+}
+@media only screen and (max-width: 768px) {
+  .time p {
+    width: 100%;
+  }
+}
+.time a {
+  background-color: black !important;
+  color: #efedeb;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid black !important;
+  padding: 10px 28px;
+  transition: all 0.3s;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  box-shadow: none !important;
+}
+.time a:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+/*# sourceMappingURL=MeatTheTreat.css.map */

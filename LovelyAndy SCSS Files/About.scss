@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dandy,Arial,sans-serif;
+}
+
+//exist
+.exist{
+  padding: 20px 0;
+  background-color: #f5b864;
+  .row{
+    .col-md{
+      @media only screen and (max-width: 768px) {
+        text-align: center;
+      }
+      h1{
+        padding: 20px 0;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      p{
+        font-size: 18px;
+        color: black;
+      }
+    }
+  }
+}
+
+
+//<!--Dandy-Difference-->
+.dandy-diff{
+  padding: 20px 0;
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
+  h6{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 30px 0;
+  }
+  .row{
+    .col-md-6{
+      margin-top: 20px;
+      padding: 20px 0;
+      h1{
+        font-size: 50px;
+        font-weight: bold;
+        padding: 20px 0;
+        line-height: 45px;
+      }
+      p{
+        font-size: 18px;
+        color: black;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
+
+//our-story
+.our-story{
+  padding: 20px 0 30px 0;
+  background-color: #efedeb;
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
+  h6{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 30px 0;
+  }
+  .row{
+    .col-md{
+      p{
+        font-size: 18px;
+        padding: 10px 0 0 0;
+        text-align: justify;
+      }
+      ul{
+        padding-left: 0;
+        li{
+          list-style: none;
+          font-size: 18px;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+}
+
+
+
+//<!--Our Mission-->
+.our-mission{
+  padding: 30px 0 40px 0;
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
+  .row {
+    .col-md {
+      h6{
+        font-size: 14px;
+        font-weight: bold;
+        padding: 30px 0 10px 0;
+      }
+      p {
+        font-size: 18px;
+        padding: 10px 0 0 0;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+//Opener
+.opener{
+  padding: 20px 0;
+  margin-bottom: 30px;
+  .accordion-item{
+    .accordion-header{
+      width: 100%;
+      button{
+        background-color: white !important;
+        width: 100%;
+        text-align: left !important;
+        border: none !important;
+        border-top: 1px solid black !important;
+        border-bottom: 1px solid black !important;
+        padding: 5px;
+        outline: none !important;
+        font-weight: 700;
+        font-size: 25px;
+        .down{
+          float: right;
+          i{
+            font-weight: lighter;
+          }
+        }
+      }
+    }
+    .accordion-body{
+      p{
+        font-size: 18px;
+        color: black;
+        padding: 10px 0;
+      }
+    }
+  }
+}

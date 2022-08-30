@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//Navbar
+.navbar{
+  padding: 10px 10px 15px 10px;
+  .navbar-brand{
+    font-size: 33px;
+    font-weight: 700;
+    position: relative;
+    @media only screen and (max-width: 768px) {
+      left: 0;
+    }
+  }
+  .navbar-nav{
+    .dropdown{
+      transition: all 0.3s ease-in-out;
+      &:hover{
+        .dropdown-menu{
+          display: block !important;
+        }
+      }
+    }
+    .nav-item{
+      padding: 0 15px;
+      a{
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 26px;
+        &:hover{
+          text-decoration: underline;
+        }
+        i{
+          font-size: 24px;
+        }
+      }
+      .active{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+//Footer
+.footer{
+  background-color: #efedeb;
+  padding: 25px 0 20px 0;
+  .row{
+    border-bottom: 1px solid white;
+    @media only screen and (max-width: 576px) {
+      text-align: center;
+    }
+    .col-sm-6{
+      h4{
+        padding: 10px 0;
+        a{
+          text-decoration: none;
+          color: black;
+          font-size: 33px;
+          font-weight: 700;
+        }
+      }
+      .contact{
+        padding-left: 0;
+        li{
+          list-style: none;
+          padding: 1px 0;
+          a{
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+      }
+      .social{
+        padding-left: 0;
+        li{
+          list-style: none;
+          display: inline-block;
+          padding: 2px 5px;
+          a{
+            color: black;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    .col-sm{
+      .pages{
+        padding-left: 0;
+        li{
+          list-style: none;
+          a{
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  .r2{
+    border-bottom: none;
+    padding: 30px 0 15px 0;
+    .col-sm{
+      .copy-right{
+        padding-left: 0;
+        li{
+          list-style: none;
+          display: inline-block;
+          padding: 0 7px;
+          font-size: 13px;
+          a{
+            color: black;
+          }
+        }
+      }
+      p{
+        font-size: 13px;
+        color: black;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+
+//Take Quiz
+.take-quiz{
+  background-color: #dfb5bf;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  display: none;
+  @media only screen and (max-width: 576px) {
+    display: block;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    &:hover{
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dandy, Arial, sans-serif;
+}
+
+.subpage-head {
+  padding: 20px 0;
+}
+@media only screen and (max-width: 576px) {
+  .subpage-head .row {
+    text-align: center;
+  }
+  .subpage-head .row .col-sm h1 {
+    font-size: 35px !important;
+  }
+  .subpage-head .row .col-sm p {
+    font-size: 16px !important;
+  }
+}
+.subpage-head .row .col-sm h1 {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 20px 0;
+  color: black;
+}
+.subpage-head .row .col-sm p {
+  color: black;
+  font-size: 19px;
+}
+
+.benefits {
+  padding: 20px 0 40px 0;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .benefits {
+    text-align: center;
+  }
+}
+.benefits h6 {
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.benefits .row .col-md .icon {
+  padding: 10px 0;
+}
+.benefits .row .col-md .details h1 {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 5px 0 10px 0;
+}
+.benefits .row .col-md .details p {
+  font-size: 18px;
+  color: black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.Detail-advantages {
+  background-color: #efedeb;
+  padding: 25px 0 50px 0;
+}
+.Detail-advantages .row .col-12 {
+  padding: 20px 0;
+}
+@media only screen and (max-width: 768px) {
+  .Detail-advantages .row .col-12 h1, .Detail-advantages .row .col-12 p {
+    text-align: center;
+  }
+}
+.Detail-advantages .row .col-12 h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+}
+.Detail-advantages .row .col-12 p {
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+}
+
+.time {
+  background-color: #f5b864;
+  padding: 20px 0;
+}
+.time h1 {
+  padding: 20px 0;
+  margin-top: 30px;
+  font-size: 50px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.time p {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 65%;
+  padding: 0 0 20px 0;
+  color: #000;
+}
+@media only screen and (max-width: 768px) {
+  .time p {
+    width: 100%;
+  }
+}
+.time a {
+  background-color: black !important;
+  color: #efedeb;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid black !important;
+  padding: 10px 28px;
+  transition: all 0.3s;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  box-shadow: none !important;
+}
+.time a:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+/*# sourceMappingURL=MeetTreatsSubPages.css.map */

@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dandy,Arial,sans-serif;
+}
+
+//FAQ Portion
+.faq{
+  background-color: #a7c280;
+  padding: 20px 0 0 0;
+  h1{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    padding: 20px 0 50px 0;
+    margin-bottom: 20px;
+  }
+  .row{
+    margin-top: 20px;
+    .col-md{
+      button{
+        @media only screen and (max-width: 768px) {
+          display: block !important;
+          text-align: left !important;
+          width: 100% !important;
+        }
+        border: none;
+        outline: none;
+        padding: 6px 15px;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: #8ba16b;
+      }
+      .q-open{
+        background-color: white !important;
+      }
+    }
+  }
+}
+
+
+
+
+.questions{
+  padding: 20px 0;
+  //Opener
+  .opener{
+    padding: 20px 0;
+    margin-top: -20px;
+    .accordion-item{
+      .accordion-header{
+        width: 100%;
+        button{
+          background-color: white !important;
+          width: 100%;
+          text-align: left !important;
+          border: none !important;
+          border-top: 1px solid black !important;
+          border-bottom: 1px solid black !important;
+          padding: 5px;
+          outline: none !important;
+          font-weight: 700;
+          font-size: 25px;
+          .down{
+            float: right;
+            i{
+              font-weight: lighter;
+            }
+          }
+        }
+      }
+      .accordion-body{
+        p{
+          font-size: 18px;
+          color: black;
+          padding: 10px 0;
+          text-align: justify;
+          a{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

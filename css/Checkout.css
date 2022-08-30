@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dandy, Arial, sans-serif;
+}
+
+.y-order {
+  padding: 20px 0;
+  background-color: #efedeb;
+}
+.y-order h1 {
+  font-weight: bold;
+  font-size: 45px;
+  color: black;
+  margin-top: 10px;
+  padding: 10px 0 0 0;
+}
+.y-order p {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.shipping-portion {
+  padding: 20px 0;
+}
+.shipping-portion .row {
+  padding: 20px 0;
+}
+.shipping-portion .row .col-md-4 {
+  border-radius: 2px;
+  background-color: #efdadf;
+}
+.shipping-portion .row .col-md-4 .order-summary {
+  margin-bottom: 15px;
+  border-bottom: 1px solid white;
+}
+.shipping-portion .row .col-md-4 .order-summary h4 {
+  font-size: 25px;
+  margin: 20px 0 10px;
+  font-weight: bold;
+}
+.shipping-portion .row .col-md-4 .order-summary h6 {
+  font-size: 12px;
+  padding: 10px 0 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.shipping-portion .row .col-md-4 .order-summary ul {
+  padding-left: 0;
+}
+.shipping-portion .row .col-md-4 .order-summary ul li {
+  list-style: none;
+  font-size: 15px;
+  padding: 5px 0;
+}
+.shipping-portion .row .col-md-4 .order-summary ul li i {
+  margin-right: 5px;
+}
+.shipping-portion .row .col-md-4 .delivery-sche {
+  border-bottom: 1px solid white;
+}
+.shipping-portion .row .col-md-4 .delivery-sche h6 {
+  margin: 25px 0 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: black;
+  font-weight: 700;
+}
+.shipping-portion .row .col-md-4 .delivery-sche h5 {
+  font-size: 16px;
+  color: black;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .his-pack {
+  background-color: white;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .his-pack .row .col-6 .modal .modal-content .row .col-sm {
+  border-top: 1px solid black;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .his-pack .row .col-6 .modal .modal-content .row .col-sm h4 {
+  font-size: 18px;
+  padding: 5px 0;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .his-pack .row .col-6 .modal .modal-content .row .col-sm p {
+  font-size: 14px;
+  padding: 10px 0 5px 0;
+  color: black;
+  font-weight: 500;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .his-pack .row .col-6 .modal .modal-content .row .col-sm button {
+  background-color: black !important;
+  color: #efedeb;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 8px 15px;
+  transition: all 0.3s;
+  float: none !important;
+  margin-bottom: 40px;
+  box-shadow: none !important;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .his-pack .row .col-6 .modal .modal-content .row .col-sm button:hover {
+  background-color: #efedeb !important;
+  color: black !important;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .his-pack .row .col-6 p {
+  font-size: 12px;
+  font-weight: bold;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .his-pack .row .col-6 button {
+  background-color: #efedeb;
+  border: none;
+  outline: none;
+  padding: 3px 15px;
+  font-size: 12px;
+  float: right;
+  font-weight: bold;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .his-pack .row .col-3 p {
+  font-size: 11px;
+  padding: 5px 0;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .promo-code .row .col-8 input {
+  box-shadow: none !important;
+  border: 1px solid lightgrey !important;
+  font-size: 16px;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .promo-code .row .col-3 button {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important;
+  padding: 7px 15px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+  box-shadow: none !important;
+  text-transform: uppercase;
+}
+.shipping-portion .row .col-md-4 .delivery-sche .promo-code .row .col-3 button:hover {
+  background-color: black !important;
+  color: white !important;
+}
+.shipping-portion .row .col-md-4 .cost-total {
+  font-size: 15px;
+  padding: 12px;
+  border-bottom: 1px solid white;
+}
+.shipping-portion .row .col-md-4 .cost-total .price {
+  float: right;
+}
+.shipping-portion .row .col-md-4 .total {
+  font-size: 13px;
+  padding: 12px;
+  font-weight: bold;
+}
+.shipping-portion .row .col-md-4 .total .t-price {
+  float: right;
+}
+.shipping-portion .row .col-md-4 .list-features ul {
+  padding-left: 0;
+}
+.shipping-portion .row .col-md-4 .list-features ul li {
+  list-style: none;
+  padding: 3px 0;
+}
+.shipping-portion .row .col-md-4 .list-features ul li i {
+  font-weight: lighter;
+  margin-right: 5px;
+  color: #9c878f;
+}
+.shipping-portion .row .col-md-8 .shipping-address h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+}
+.shipping-portion .row .col-md-8 .payment h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+.shipping-portion .row .col-md-8 .payment p {
+  font-size: 13px;
+}
+.shipping-portion .row .col-md-8 .payment p i {
+  margin-right: 5px;
+}
+.shipping-portion .row .col-md-8 .payment a {
+  color: black;
+}
+.shipping-portion .row .col-md-8 input {
+  box-shadow: none !important;
+}
+.shipping-portion .row .col-md-8 input:focus {
+  border-color: black !important;
+}
+.shipping-portion .row .col-md-8 .place-order {
+  padding: 20px 0;
+  margin-top: 40px;
+}
+.shipping-portion .row .col-md-8 .place-order button {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid black !important;
+  padding: 20px 70px;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+  box-shadow: none !important;
+  text-transform: uppercase;
+}
+.shipping-portion .row .col-md-8 .place-order button:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.shipping-portion .row .col-md-8 .place-order p {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 13px;
+  padding: 20px 0;
+  color: #757575;
+}
+@media only screen and (max-width: 768px) {
+  .shipping-portion .row .col-md-8 .place-order p {
+    width: 90% !important;
+  }
+}
+
+/*# sourceMappingURL=Checkout.css.map */
